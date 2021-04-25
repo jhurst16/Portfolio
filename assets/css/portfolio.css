@@ -25,7 +25,7 @@ header {
 }
 
 header a {
-  color: #eeeeee;
+  color: #000000;
 }
 
 header nav ul {
@@ -37,13 +37,21 @@ header nav ul li {
   margin-left: 4.375rem;
   text-transform: uppercase;
   display:inline;
+  
 }
 
 
 #about-me p {
-  padding: 25px 200px;
+  padding: 50px 200px;
   text-align: center;
 }
+
+#projects img {
+  max-width: 800px;
+  height: 500px;
+}
+
+
 
 
 /*** END SELECTORS***/
@@ -56,9 +64,8 @@ header nav ul li {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 .main-background {
-  width: 100%;
+  width:100%
 }
 
 .main-background img {
@@ -66,10 +73,10 @@ header nav ul li {
   height: 350px;
 }
 
+
 .section-title {
-  font-size: 35px;
+  font-size: 30px;
   margin: 0 auto 35px auto;
-  width: 50%;
   display:flex;
   justify-content: center;
 }
@@ -83,14 +90,34 @@ header nav ul li {
   flex-wrap: wrap;
   }
 
-  .contact-me {
-    justify-content: space-between;
+  .flex-column {
+    display:flex;
+    flex-direction: column;
   }
 
+  .space-between {
+    justify-content: space-between;
+    align-items:center;
+  }
+
+  .space-around {
+    justify-content: space-around;
+  }
+
+  .contact-button {
+    background-color: #d3cce3;
+    padding: 10px 10px;
+  }
+
+  .project-spacing {
+    padding:25px;
+  }
 /*** END CLASSES ***/
 
 /* Footer */
 footer {
-  color: #eeeeee;
+  color: #000000;
+  text-align: center;
+  padding:15px 0;
 }
 /* End Footer */
