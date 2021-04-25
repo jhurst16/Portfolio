@@ -8,17 +8,16 @@
 p,
 h1,
 h2 {
-  color: #ffd718;
-  text-align: center;
+  color: #000000;
 }
 
 body {
-  background: linear-gradient(to right, #0575e6, #021b79);
+  background: linear-gradient(to right, #ece9e6, #ffffff);
   font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
-  background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
   padding: 20px 35px;
   display: flex;
   align-items: center;
@@ -40,14 +39,12 @@ header nav ul li {
   display:inline;
 }
 
-article {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 #about-me p {
   padding: 25px 200px;
+  text-align: center;
 }
+
 
 /*** END SELECTORS***/
 
@@ -71,7 +68,6 @@ article {
 
 .section-title {
   font-size: 35px;
-  padding-bottom: 20px;
   margin: 0 auto 35px auto;
   width: 50%;
   display:flex;
@@ -85,9 +81,11 @@ article {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-}
+  }
 
+  .contact-me {
+    justify-content: space-between;
+  }
 
 /*** END CLASSES ***/
 
