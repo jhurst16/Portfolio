@@ -87,6 +87,8 @@ header nav ul li {
   flex-wrap:wrap;
   }
 
+  
+
   .flex-column {
     display:flex;
     flex-direction: column;
@@ -117,7 +119,7 @@ header nav ul li {
   }
 
   .secondary-img {
-    max-width: 200px;
+    width: 175px;
     height:125px;
   }
 
@@ -131,3 +133,38 @@ footer {
   padding:15px 0;
 }
 /* End Footer */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 412px) {
+  .flex-row > * {
+    flex-basis: 100%;
+    max-width: 412px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-size {
+    max-width: 325px;
+    max-height: 250px;
+  }
+
+.about-me p {
+  padding:0 40px;
+}
+
+.main-background img {
+  height: 150px;
+}
+
+.projects {
+  display:flex;
+  flex-direction: column;
+}
+.project-spacing {
+  width:101.39px;
+  height: 104px;
+
+}
+}
