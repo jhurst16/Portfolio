@@ -162,9 +162,15 @@ footer {
   display:flex;
   flex-direction: column;
 }
+
 .project-spacing {
   width:101.39px;
   height: 104px;
+}
 
+.contact-me {
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
 }
 }
