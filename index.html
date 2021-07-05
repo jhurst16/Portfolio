@@ -6,37 +6,49 @@
   <title>
     Jeremy Hurst, Web Developer!
   </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/portfolio.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-  <header class="primary-border">
-    <div class="flex-middle">
-    <h1>
-      Jeremy Hurst
-    </h1>
-    <img src="./assets/images/Mayhem custom logo.png">
-    </div>
-    <div>
-    <nav>
-      <ul>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact-me">Contact Info</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Navigation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#about-me">About Me</a>
+            <a class="dropdown-item" href="#projects">Projects</a>
+            <a class="dropdown-item" href="#contact-me">Contact Info</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://github.com/jhurst16">Github <span class="sr-only">(current)</span></a>
+        </li>
       </ul>
-    </nav>
     </div>
-  </header>
+  </nav>
 
   <!-- hero img background -->
 
-  <section>
-    <div class="main-background">
-      <img src="./assets/images/blue-snow.png" alt="background splash" class="primary-border" />
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>I am Jeremy Hurst</h1>
+      <p>And I'm a Developer!</p>
+      <button>My Work</button>
     </div>
-  </section>
+  </div>
 
   <!-- END HERO -->
 
@@ -98,7 +110,8 @@
         </div>
         <div class="img-size flex-column">
           <a href="https://jhurst16.github.io/password-generator/">
-            <img src="./assets/images/password generator screenshot.png" alt="Random password generator" class="secondary-img img-shadow">
+            <img src="./assets/images/password generator screenshot.png" alt="Random password generator"
+              class="secondary-img img-shadow">
           </a>
           <h3 class="project-spacing">
             Random Password Generator
@@ -106,15 +119,16 @@
         </div>
         <div class="img-size flex-column">
           <a href="https://jhurst16.github.io/Helpful-Gaming">
-            <img src="./assets/images/Helpful Gaming!.png" alt="A super mario gaming website"  class="secondary-img img-shadow">
+            <img src="./assets/images/Helpful Gaming!.png" alt="A super mario gaming website"
+              class="secondary-img img-shadow">
           </a>
           <h3 class="project-spacing">
-            TBD
+            Helpful-Gaming!
           </h3>
         </div>
         <div class="img-size flex-column">
           <a href="">
-            <img src="./assets/images/dummy-img1.png" alt="dummy image"  class="secondary-img img-shadow">
+            <img src="./assets/images/dummy-img1.png" alt="dummy image" class="secondary-img img-shadow">
           </a>
           <h3 class="project-spacing">
             TBD
@@ -155,7 +169,7 @@
             <a href="https://github.com/jhurst16">github.com/jhurst16</a>
           </p>
         </div>
-        <br/>
+        <br />
         <div class="contact-button">
           <p>
             LinkedIn:
@@ -175,7 +189,9 @@
   </footer>
 
   <!-- END FOOTER -->
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
