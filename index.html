@@ -6,6 +6,7 @@
   <title>
     Jeremy Hurst, Web Developer!
   </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/portfolio.css" />
@@ -15,7 +16,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand">Navigation</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -46,7 +47,7 @@
     <div class="hero-text">
       <h1>I am Jeremy Hurst</h1>
       <p>And I'm a Developer!</p>
-      <button>My Work</button>
+      <a href="#projects"><button>My Work</button></a>
     </div>
   </div>
 
@@ -54,89 +55,77 @@
 
   <!-- ABOUT ME SECTION -->
 
-  <section id="about-me" class="about-me">
-    <div class="primary-border">
-      <div class="section-title">
-        <h2>
-          About Me
-        </h2>
-      </div>
-      <div class="flex-row">
-        <p>
-          My name is Jeremy Hurst. My Fiance and I have been together for 8
-          years and have an adopted child, and he is 8! My hobbies are fishing,
-          exploring, motorcycles, and gaming. A huge part of my life has been in
-          the construction field. I have a great eye for detail and a knack to
-          make things work. I also build computers for fun. Since I build stuff
-          so well, why not build websites? My biggest passion in life is
-          technology and games, so its very fitting to be in the development
-          field! The current languages I know include HTML and CSS, and were learning JavaScript,
-          frameworks for css and JavaScript, and back-end functions like Node.JS. By the end of
-          six months, i plan to be on my wat to a professional Full-Stack Developer!
-        </p>
-      </div>
+  <section id="about-me">
+    <div class="about-section">
+      <h1>About Me</h1>
+      <p>My name is Jeremy Hurst. My Fiance and I have been together for 8
+        years and have an adopted child, and he is 8! My hobbies are fishing,
+        exploring, motorcycles, and gaming. A huge part of my life has been in
+        the construction field. I have a great eye for detail and a knack to
+        make things work. I also build computers for fun. Since I build stuff
+        so well, why not build websites? My biggest passion in life is
+        technology and games, so its very fitting to be in the development
+        field! The current languages I know include HTML and CSS, and were learning JavaScript,
+        frameworks for css and JavaScript, and back-end functions like Node.JS. By the end of
+        six months, i plan to be on my way to a professional Full-Stack Developer!</p>
     </div>
   </section>
 
-  <!-- END ABOUT ME -->
+  <!-- End About Me -->
 
-  <!-- PROJECTS SECTION -->
+  <!-- Projects Section -->
 
-  <section id="projects">
-    <div class="primary-border">
-      <div class="section-title">
-        <h2>
-          Projects
-        </h2>
+  <h2 class="text-center" id="projects">My Projects</h2>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="card col-sm bg-light mb-3">
+        <img src="./assets/images/hero-bg.jpg" alt="Run-Buddy" style="width:100%">
+        <h2>Run Buddy</h2>
+        <p class="title">Connect to other runners near you!</p>
+        <p>Made with HTML and CSS!</p>
+        <a href="https://jhurst16.github.io/run-buddy/"><button class="button">Github Pages</button></a>
       </div>
-      <div class="flex-row space-around">
-        <div class="flex-column space-between projects">
-          <a href="https://jhurst16.github.io/run-buddy/">
-            <img src="./assets/images/hero-bg.jpg" alt="Run-Buddy project" class="img-size img-shadow">
-          </a>
-          <h3 class="project-spacing">
-            Run-Buddy
-          </h3>
-        </div>
+      <div class="card col-sm bg-light mb-3">
+        <img src="./assets/images/SEO.jpg" alt="SEO compliance" style="width:100%">
+        <h2>HoriSEOn</h2>
+        <p class="title">Search Engine Optimization!</p>
+        <p>Made with HTML, and CSS!</p>
+        <a href="https://jhurst16.github.io/horiseon/"><button class="button">Github Pages</button></a>
       </div>
-      <div class="flex-row space-around">
-        <div class="img-size flex-column">
-          <a href="https://jhurst16.github.io/horiseon/">
-            <img src="./assets/images/SEO.jpg" alt="Horiseon project" class="secondary-img img-shadow">
-          </a>
-          <h3 class="project-spacing">
-            Horiseon
-          </h3>
-        </div>
-        <div class="img-size flex-column">
-          <a href="https://jhurst16.github.io/password-generator/">
-            <img src="./assets/images/password generator screenshot.png" alt="Random password generator"
-              class="secondary-img img-shadow">
-          </a>
-          <h3 class="project-spacing">
-            Random Password Generator
-          </h3>
-        </div>
-        <div class="img-size flex-column">
-          <a href="https://jhurst16.github.io/Helpful-Gaming">
-            <img src="./assets/images/Helpful Gaming!.png" alt="A super mario gaming website"
-              class="secondary-img img-shadow">
-          </a>
-          <h3 class="project-spacing">
-            Helpful-Gaming!
-          </h3>
-        </div>
-        <div class="img-size flex-column">
-          <a href="">
-            <img src="./assets/images/dummy-img1.png" alt="dummy image" class="secondary-img img-shadow">
-          </a>
-          <h3 class="project-spacing">
-            TBD
-          </h3>
-        </div>
+      <div class="card col-sm bg-light mb-3">
+        <img src="./assets/images/password generator screenshot.png" alt="Password Generator" style="width:100%">
+        <h2>Password Generator</h2>
+        <p class="title">Generates a random password!</p>
+        <p>Made with HTML, CSS, and Javascript!</p>
+        <a href="https://jhurst16.github.io/password-generator/"><button class="button">Github Pages</button></a>
       </div>
     </div>
-  </section>
+  </div>
+  <div class="container">
+    <div class="row row justify-content-between">
+      <div class="card col-sm bg-light mb-3">
+        <img src="./assets/images/hero-bg.jpg" alt="Run-Buddy" style="width:100%">
+        <h2>Robot Gladiator</h2>
+        <p class="title">Duel till the death!</p>
+        <p>Made with JavaScript!</p>
+        <a href="https://jhurst16.github.io/run-buddy/"><button class="button">Github Pages</button></a>
+      </div>
+      <div class="card col-sm bg-light mb-3">
+        <img src="./assets/images/SEO.jpg" alt="SEO compliance" style="width:100%">
+        <h2>Helpful Gaming</h2>
+        <p class="title">Helping Gamers Everywhere!</p>
+        <p>Made with HTML, CSS, and Javascript!</p>
+        <a href="https://jhurst16.github.io/horiseon/"><button class="button">Github Pages</button></a>
+      </div>
+      <div class="card col-sm bg-light mb-3">
+        <img src="./assets/images/password generator screenshot.png" alt="Password Generator" style="width:100%">
+        <h2>Zookeepr</h2>
+        <p class="title">Keeps track of animals/zookeepers!</p>
+        <p>HTML, CSS, JavaScript, Node, Express!</p>
+        <a href="https://jhurst16.github.io/password-generator/"><button class="button">Github Pages</button></a>
+      </div>
+    </div>
+  </div>
 
   <!-- END PROJECTS SECTION -->
 
@@ -182,16 +171,71 @@
 
   <!-- END CONTACT ME SECTION -->
 
-  <!-- FOOTER-->
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
 
-  <footer>
-    <p>Made by Jeremy Hurst</p>
-  </footer>
+  <!-- Footer Elements -->
+  <div class="container">
 
-  <!-- END FOOTER -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> Jeremy Hurst</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
