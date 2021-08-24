@@ -26,6 +26,6 @@ https://github.com/jhurst16/Portfolio
 
 ## SCREENSHOT
 
-![SS of website](https://user-images.githubusercontent.com/79426564/116156442-7bbbd500-a6b9-11eb-8be5-9deabaa7fc15.png)
+![Web Dev Pathways — MyCareerSpot - Google Chrome 8_24_2021 4_07_25 PM](https://user-images.githubusercontent.com/79426564/130682827-69e82e97-70e9-4d67-87ff-004985b1e641.png)
 
 
